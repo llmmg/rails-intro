@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
+  title: T-shirt
   description: 
   price: 9.99
 
 two:
-  title: MyString
+  title: Sweatshirt
   description: 
-  price: 9.99
+  price: 99.9
