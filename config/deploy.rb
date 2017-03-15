@@ -36,7 +36,7 @@ namespace :deploy do
   after :finished, :restart_puma do
     on roles(:web) do
       execute :sudo, 'service puma-lancelot restart'
-      execute :sudo, ‘service nginx reload’
+      execute :sudo, 'service nginx reload'
     end
   end
 end
